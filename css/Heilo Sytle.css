@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgrey;
+   
+}
+
+#mynavigation{
+ width: 100%;
+ position: absolute;
+ z-index: 10;
+ background: none;
+ border: none;
+
+}
+
+#mynavigation .navbar-toggle{
+    display: block;
+    border: 0px;
+}
+
+#mynavigation .navbar-toggle:hover{
+    background: none;
+    cursor: pointer;
+}
+#mynavigation .navbar-header{
+    float: none;
+}
+#mynavigation .navbar-right{
+    float: left !important;
+}
+#mynavigation .icon-bar{
+    background-color:#fff ;
+}
+#mynavigation .icon-bar-left{
+    float: left;
+    margin-top: 5px;
+}
+
+#mynavigation .icon-right{
+    float: right;
+    position: relative;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 17px;
+}
+
+#mynavigation .navbar-brand, #mynavigation ul li a{
+    color: #fff;
+    font-size: 17px;
+}
+   
+#mynavigation .navbar-brand{
+    font-size: 20px;
+}
+
+/* carousel */
+
+.mycontainer{
+    padding: 0;
+    color: #fff;
+}
+
+.carousel-inner .item{
+   background-image: url(../Img/heilo/slide01.jpg);
+   width: 100vw;
+   height: 100vh;
+   background-size: cover;
+   z-index: 20px;
+}
+
+.carousel-inner  .item-2{
+    background-image: url(../Img/heilo/slide02.jpg);
+ 
+}
+.carousel-inner  .item-3{
+    background-image: url(../Img/heilo/slide03.jpg);
+}
+.carousel-inner .item-4{
+   background-image: url(../Img/heilo/slide04.jpg);
+}
+.carousel-inner .item-5{
+    background-image: url(../Img/heilo/slide05.jpg);
+}
+
+/* banner starts */
+
+
+ .banner{
+    width: 100%;
+    
+    text-align: center;
+    z-index: 20;
+    position: absolute;
+    margin-top: 20%;
+}
+.banner p{
+    letter-spacing: 3px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 200;
+    color: grey;
+}
+.banner hr{
+    width: 20%;
+    margin: 0 auto;
+    color: grey;
+}
+.banner h1{
+    font-weight: 300;
+    font-size: 100px;
+}
+
+
+
+
+
+/* two-section */
+
+.tow-section{
+    padding: 70px 0px;
+    text-align: center;
+}
+
+.tow-section .left-image,.tow-section .right-image{
+    background-color: #fff;
+    width: 95%;
+}
+
+.left-image img, .right-image img{
+    width: 100%;
+}
+.tow-section .left-image h4, .tow-section .right-image h4{
+   letter-spacing: 3px;
+   color: grey;
+   padding: 20px;
+  
+}
+.tow-section hr{
+   width: 50%;
+   margin: 0 auto;
+  border: 1px solid grey;
+}
+.left-image h2, .right-image h2{
+    color: #000;
+    font-weight: 500;
+}
+.left-image p, .right-image p{
+    line-height: 24px;
+    color: grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: justify;
+    padding: 0px 20px;
+}
+.mybutton{
+    width: 110px;
+    height: 40px;
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.right-image{
+    float: right;
+}
+/* third-section */
+
+.third-section{
+    background-image: url(../Img/heilo/slide04.jpg);
+    background-position: bottom;
+    text-align: center;
+   
+}
+.third-section p{
+    letter-spacing: 3px;
+    color: grey;
+    margin-top: 50px;
+}
+.third-section hr{
+    width: 55%;
+    margin: 0px auto;
+    color: grey;
+}
+.third-section h3{
+    margin-top: 10px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+/* fourth image */
+
+.content{
+    padding: 70px 0px;
+    text-align: center;
+}
+
+.content .same p{
+    letter-spacing: 3px;
+    color: grey;
+}
+.content .same hr {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid grey;
+}
+.content .same h3{
+    margin-top: 10px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+/* fourth-img */
+
+.content .fourth-img img{
+            width: 95%;
+            margin-bottom: 30px;
+            border: 10px solid #fff;
+}
+
+.fourth-img .right{
+    float: right;
+}
+
+/* footer starts */
+
+.footer{
+    background-color: #000;
+    text-align: center;
+    color: grey;
+}
+
+.footer span{
+    font-size: 28px;
+    margin-top: 50px;
+    padding: 7px;
+   
+}
+.footer p{
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+
+
+
+
+/* add media queries */
+
+@media only screen and (max-width:990px){
+    .right-image{
+        float: none;
+        margin-top: 30px;
+    }
+    .fourth-img .right{
+        float: none;
+    }
+}
+
+@media only screen and (max-width:780px){
+    .third-section p{
+        letter-spacing: 2px;
+    }
+
+    .content .same p{
+        letter-spacing: 2px;
+       
+    }
+}
+/* The Ends */
